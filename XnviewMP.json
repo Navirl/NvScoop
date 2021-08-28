@@ -14,6 +14,11 @@
         "url": "https://www.xnview.com/xnviewmp_update.txt",
         "regex": "version=([\\d.]+)"
     },
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\\xnview.ini\")) { New-Item \"$dir\\xnview.ini\" -Type File | Out-Null }",
+        "if (-not (Test-Path \"$persist_dir\\Thumb.db\")) { New-Item \"$dir\\Thumb.db\" -Type File | Out-Null }",
+        "if (-not (Test-Path \"$persist_dir\\XnView.db\")) { New-Item \"$dir\\XnView.db\" -Type File | Out-Null }"
+    ],
     "persist": [
         "xnview.ini",
         "Thumb.db",

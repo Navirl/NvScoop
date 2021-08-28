@@ -14,6 +14,11 @@
         "url": "https://www.xnview.com/xnviewmp_update.txt",
         "regex": "version=([\\d.]+)"
     },
+    "persist": [
+        "xnview.ini",
+        "Thumb.db",
+        "XnView.db"
+    ],
     "autoupdate": {
         "url": "https://download.xnview.com/XnViewMP-win-x64.zip"
     }

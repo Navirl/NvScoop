@@ -1,0 +1,20 @@
+{
+    "homepage": "https://www.xnview.com/",
+    "version": "0.98.4",
+    "url": "https://download.xnview.com/XnViewMP-win-x64.zip",
+    "hash": "6200C8EB5A974AAAD78E09F3248C2FDF3EA7274184A42B4B3BD81E5E81B87646",
+    "extract_dir": "XnviewMP",
+    "shortcuts": [
+        [
+            "xnviewmp.exe",
+            "XnViewMP"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.xnview.com/xnviewmp_update.txt",
+        "regex": "version=([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.xnview.com/XnViewMP-win-x64.zip"
+    }
+}

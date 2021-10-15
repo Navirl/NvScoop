@@ -12,7 +12,7 @@
 	"uninstaller": {
 		"file": "uninstall.bat"
 	},
-	"chechver": {
+	"checkver": {
 		"github": "https://github.com/umezawatakeshi/utvideo"
 	},
 	"autoupdate": {

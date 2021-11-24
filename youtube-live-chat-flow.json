@@ -1,0 +1,13 @@
+{
+    "version": "9.4.1",
+    "description": "About Chrome Extension for Flow Chat Messages on YouTube Live",
+    "homepage": "https://github.com/fiahfy/youtube-live-chat-flow",
+    "license": "MIT License",
+    "url": "https://github.com/fiahfy/youtube-live-chat-flow/releases/download/v0.0.50/archive.zip",
+    "hash": "7e2185c695b38cd35013136ce71c163a92c1a14150998552ecb0e9be75e29c51",
+    "extract_to": "\\Extension\\",
+    "checkver":"github",
+    "autoupdate": {
+        "url": "https://github.com/fiahfy/youtube-live-chat-flow/releases/download/v$version/archive.zip"
+    }
+}

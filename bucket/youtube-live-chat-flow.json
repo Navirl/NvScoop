@@ -4,7 +4,7 @@
     "homepage": "https://github.com/fiahfy/youtube-live-chat-flow",
     "license": "MIT License",
     "url": "https://github.com/fiahfy/youtube-live-chat-flow/releases/download/v0.0.50/archive.zip",
-    "hash": "7e2185c695b38cd35013136ce71c163a92c1a14150998552ecb0e9be75e29c51",
+    "hash": "043f885a9505992d0bce9b898a5130d1094d89d3920fd95ba1535329575cf894",
     "extract_to": "\\Extension\\",
     "checkver":"github",
     "autoupdate": {

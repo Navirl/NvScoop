@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://www.exiv2.org/builds/exiv2-0.27.5-2019msvc64.zip",
             "hash": "953bb63f0a6a04a26c2bfe85e10f9ee008a3e5590d90b7274a783e682866f838",
-            "extract_dir": "exiv2-0.27.5-2019msvc64"
+            "extract_to": ""
         }
     },
     "bin": [

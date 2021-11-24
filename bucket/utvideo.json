@@ -14,7 +14,6 @@
 	},
 	"checkver": "github",
 	"autoupdate": {
-		"url": "https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-$version/utvideo-$version-win.zip",
-		"hash": "$url.sha256"
+		"url": "https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-$version/utvideo-$version-win.zip"
 	}
 }

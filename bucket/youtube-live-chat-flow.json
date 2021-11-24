@@ -8,6 +8,9 @@
     "extract_to": "\\Extension\\",
     "checkver":"github",
     "autoupdate": {
-        "url": "https://github.com/fiahfy/youtube-live-chat-flow/releases/download/v$version/archive.zip"
+        "url": "https://github.com/fiahfy/youtube-live-chat-flow/releases/download/v$version/archive.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
 }

@@ -1,13 +1,18 @@
 {
-    "version": "0.0.11",
-    "description": "Chrome Extension for Filtering Chat Messages on YouTube Live",
-    "homepage": "https://github.com/fiahfy/youtube-live-chat-filter",
-    "license": "MIT License",
-    "url": "https://github.com/fiahfy/youtube-live-chat-filter/releases/download/v0.0.11/archive.zip",
-    "hash": "043f885a9505992d0bce9b898a5130d1094d89d3920fd95ba1535329575cf894",
-    "extract_to": "\\Extension\\",
-    "checkver":"github",
-    "autoupdate": {
-        "url": "https://github.com/fiahfy/youtube-live-chat-filter/releases/download/v$version/archive.zip"
-    }
+  "version": "0.0.11",
+  "description": "Chrome Extension for Filtering Chat Messages on YouTube Live",
+  "homepage": "https://github.com/fiahfy/youtube-live-chat-filter",
+  "license": "MIT License",
+  "url": "https://github.com/fiahfy/youtube-live-chat-filter/releases/download/v0.0.11/archive.zip",
+  "hash": "043f885a9505992d0bce9b898a5130d1094d89d3920fd95ba1535329575cf894",
+  "extract_to": "\\Extension\\",
+  "checkver": "github",
+  "post_install": [
+    "mv $dir\\Extension\\app $dir",
+    "rm $dir\\Extension",
+    "Rename-Item $dir\\app $dir\\Extension"
+  ],
+  "autoupdate": {
+    "url": "https://github.com/fiahfy/youtube-live-chat-filter/releases/download/v$version/archive.zip"
+  }
 }

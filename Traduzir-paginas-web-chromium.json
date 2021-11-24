@@ -5,7 +5,7 @@
     "license": "MPL-2.0 License",
     "url": "https://github.com/FilipePS/Traduzir-paginas-web/releases/download/v9.4.1/TWP.9.4.1.Chromium.zip",
     "hash": "7e2185c695b38cd35013136ce71c163a92c1a14150998552ecb0e9be75e29c51",
-    "extract_dir": "TWP.$version.Chromium",
+    "extract_dir": "TWP.$version.Chromium.zip",
     "checkver":"github",
     "autoupdate": {
         "url": "https://github.com/FilipePS/Traduzir-paginas-web/releases/download/v$version/TWP.$version.Chromium.zip"

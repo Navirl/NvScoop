@@ -4,7 +4,7 @@
   "homepage": "https://github.com/fiahfy/youtube-live-chat-filter",
   "license": "MIT License",
   "url": "https://github.com/fiahfy/youtube-live-chat-filter/releases/download/v0.0.11/archive.zip",
-  "hash": "043f885a9505992d0bce9b898a5130d1094d89d3920fd95ba1535329575cf894",
+  "hash": "aaf3d0ca805bfc080c59c0279b6d8d70e544f4a8daa5ce9e58e111e8f57e81b8",
   "extract_to": "\\Extension\\",
   "checkver": "github",
   "post_install": [

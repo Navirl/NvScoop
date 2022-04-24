@@ -4,7 +4,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download-cdn.resilio.com/stable/windows64/Resilio-Sync_x64.exe#/setup.exe",
-            "hash": " dc9c72e709cc7a2ea74999ce3756e6f4879cd6eae50a888a1f8ca011a1d6efa3"
+            "hash": "dc9c72e709cc7a2ea74999ce3756e6f4879cd6eae50a888a1f8ca011a1d6efa3"
         },
         "32bit": {
             "url": "https://download-cdn.resilio.com/stable/windows/Resilio-Sync.exe#/setup.exe",

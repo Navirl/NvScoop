@@ -1,0 +1,41 @@
+{
+    "version": "2.2.2",
+    "description": "Clibor: Clipboard manager",
+    "homepage": "https://chigusa-web.com/clibor/",
+    "license": "Freeware",
+    "url": "https://dforest.watch.impress.co.jp/library/c/clibor/10713/clibor.zip",
+    "hash": "d5bbeda5022c9537c217c691cbc03c798847700eed28ae0f75385f9f950986b9",
+    "extract_dir": "clibor",
+    "bin": "Clibor.exe",
+    "shortcuts": [
+        [
+            "Clibor.exe",
+            "Clibor"
+        ]
+    ],
+    "pre_install": [
+        "ensure \"$persist_dir\" | Out-Null",
+        "$target = \"$persist_dir\\Clibor.xml\"",
+        "if (Test-Path $target) {",
+        "    New-Item -ItemType HardLink -Path \"$dir\" -Name Clibor.xml -Value $target | Out-Null",
+        "}"
+    ],
+    "persist": [
+        "ch",
+        "ct"
+    ],
+    "post_install": [
+        "$path = \"$dir\\persist_config.ps1\"",
+        "if (!(Test-Path $path)) {",
+        "  Set-Content $path -Value \"`$appdir = `\"`$(scoop prefix clibor)`\"`n`$path = [uri]::new(`\"`$appdir\\..\\..\\..\\persist\\clibor`\").AbsolutePath`n`$target = `\"`$appdir\\Clibor.xml`\"`nif (!(Test-Path `\"`$path\\Clibor.xml`\") -and (Test-Path `$target)) {`n    New-Item -ItemType HardLink -Path `$path -Name Clibor.xml -Value `$target`n}\"",
+        "}"
+    ],
+    "checkver": {
+        "url": "https://forest.watch.impress.co.jp/library/software/clibor/",
+        "regex": "<dd>v([\\d.]+).+</dd>"
+    },
+    "autoupdate": {
+        "url": "https://dforest.watch.impress.co.jp/library/c/clibor/10713/clibor.zip"
+    },
+    "notes": "To backup your config file (Clibor.xml), run 'scoop\\apps\\clibor\\current\\persist_config.ps1' AFTER first run of clibor."
+}

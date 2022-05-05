@@ -33,5 +33,6 @@
     "uninstaller": {
         "script": "Start-Process -Wait \"$dir\\setup.exe\" \"/UNINSTALL /S /REMSETTINGS\" -Verb RunAs"
     },
-    "manifest_source": "https://github.com/kkzzhizhou/scoop-zapps/blob/master/bucket/ResilioSync.json"
+    "manifest_source": "https://githhub.com/kkzzhizhou/scoop-zapps/blob/master/bucket/ResilioSync.json",
+    "manifest_license": "https://github.com/kkzzhizhou/scoop-zapps/blob/master/LICENSE"
 }

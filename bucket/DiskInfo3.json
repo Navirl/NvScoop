@@ -2,6 +2,13 @@
     "version": "3.3.7.0",
     "description": "Displays disk usage",
     "homepage": "https://www.vector.co.jp/soft/dl/winnt/util/se475617.html",
+    "bin": "DiskInfo3.exe",
+    "shortcuts": [
+        [
+            "DiskInfo3.exe",
+            "DiskInfo3"
+        ]
+    ],
     "architecture": {
         "64bit": {
             "url":"https://ftp.vector.co.jp/71/44/2321/diskinfo643.3.7.0.zip",  

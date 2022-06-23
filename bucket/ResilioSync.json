@@ -1,6 +1,8 @@
 {
     "version": "2.6.3.1340",
     "homepage": "https://www.resilio.com/individuals/",
+    "manifest_source": "https://github.com/kkzzhizhou/scoop-zapps/blob/master/bucket/ResilioSync.json",
+    "manifest_license": "https://github.com/kkzzhizhou/scoop-zapps/blob/master/LICENSE",
     "architecture": {
         "64bit": {
             "url": "https://download-cdn.resilio.com/stable/windows64/Resilio-Sync_x64.exe#/setup.exe",
@@ -32,7 +34,5 @@
     "post_install": "Remove-Item \"$env:USERPROFILE\\Desktop\\Resilio` Sync.lnk\"",
     "uninstaller": {
         "script": "Start-Process -Wait \"$dir\\setup.exe\" \"/UNINSTALL /S /REMSETTINGS\" -Verb RunAs"
-    },
-    "manifest_source": "https://github.com/kkzzhizhou/scoop-zapps/blob/master/bucket/ResilioSync.json",
-    "manifest_license": "https://github.com/kkzzhizhou/scoop-zapps/blob/master/LICENSE"
+    }
 }

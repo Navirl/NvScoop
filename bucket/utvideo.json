@@ -1,19 +1,19 @@
 {
-	"version": "22.6.0",
-	"description": "Ut Video Codec Suite is a fast lossless video codec which supports multiple codec interfaces.",
-	"homepage": "https://github.com/umezawatakeshi/utvideo",
-	"license": "GPL-2.0-or-later",
-	"url": "https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-22.6.0/utvideo-22.6.0-win.zip",
-	"hash": "182ABA339CB23C7FFD67E69F02FB512EB10EBC20804FFA97750534A394163AB0",
-	"extract_to": "",
-	"installer": {
-		"file": "install.bat"
-	},
-	"uninstaller": {
-		"file": "uninstall.bat"
-	},
-	"checkver": "github",
-	"autoupdate": {
-		"url": "https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-$version/utvideo-$version-win.zip"
-	}
+    "version": "22.6.0",
+    "description": "Ut Video Codec Suite is a fast lossless video codec which supports multiple codec interfaces.",
+    "homepage": "https://github.com/umezawatakeshi/utvideo",
+    "license": "GPL-2.0-or-later",
+    "url": "https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-22.6.0/utvideo-22.6.0-win.zip",
+    "hash": "182ABA339CB23C7FFD67E69F02FB512EB10EBC20804FFA97750534A394163AB0",
+    "extract_to": "",
+    "installer": {
+        "file": "install.bat"
+    },
+    "uninstaller": {
+        "file": "uninstall.bat"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-$version/utvideo-$version-win.zip"
+    }
 }

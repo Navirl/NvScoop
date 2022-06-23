@@ -3,8 +3,8 @@
     "description": "Ut Video Codec Suite is a fast lossless video codec which supports multiple codec interfaces.",
     "homepage": "https://github.com/umezawatakeshi/utvideo",
     "license": "GPL-2.0-or-later",
-    "url": "https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-22.6.0/utvideo-22.6.0-win.zip",
-    "hash": "182ABA339CB23C7FFD67E69F02FB512EB10EBC20804FFA97750534A394163AB0",
+    "url": "https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-23.0.1/utvideo-23.0.1-win.zip",
+    "hash": "dd3036c641f04e0e28cdb466c01f2c87f2145162a5ed27146307e51caee8c19b",
     "extract_to": "",
     "installer": {
         "file": "install.bat"

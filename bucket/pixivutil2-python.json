@@ -6,6 +6,16 @@
     "url": "https://github.com/Nandaka/PixivUtil2/archive/refs/tags/v20220804.zip",
     "hash": "2e888949cac3f0b6cd0785b3208a2b7dd0c40ea6a6cb74ebd6765fab760e0b46",
     "extract_dir": "PixivUtil2-20220804",
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\")){",
+        "   New-Item \"$dir\\config.ini\" | Out-Null",
+        "   New-Item \"$dir\\list.txt\" | Out-Null",
+        "   }"
+    ],
+    "persist": [
+        "config.ini",
+        "list.txt"
+    ],
     "bin": "PixivUtil2.py",
     "shortcuts": [
         [

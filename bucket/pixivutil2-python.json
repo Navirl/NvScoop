@@ -5,10 +5,11 @@
     "license": "BSD-2-Clause",
     "url": "https://github.com/Nandaka/PixivUtil2/archive/refs/tags/v20220804.zip",
     "hash": "2e888949cac3f0b6cd0785b3208a2b7dd0c40ea6a6cb74ebd6765fab760e0b46",
-    "bin": "PixivUtil2.exe",
+    "extract_dir": "PixivUtil2-20220804",
+    "bin": "PixivUtil2.py",
     "shortcuts": [
         [
-            "PixivUtil2.exe",
+            "PixivUtil2.py",
             "PixivUtil2"
         ]
     ],
@@ -17,6 +18,7 @@
     },
     "autoupdate": {
         "url": "https://github.com/Nandaka/PixivUtil2/archive/refs/tags/v$version.zip",
-        "hash": "$url.sha256"
+        "hash": "$url.sha256",
+        "extract_dir": "PixivUtil2-$version"
     }
 }

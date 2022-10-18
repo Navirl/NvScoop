@@ -12,6 +12,11 @@
             "KeyToKey"
         ]
     ],
+    "persist": [
+        "Profiles",
+        "Scripts",
+        "ApplicationConfig.conf"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/x0oey6B8/KeyToKey-Web/releases/download/$version/KeyToKey.$version.zip"

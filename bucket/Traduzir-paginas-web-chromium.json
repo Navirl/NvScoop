@@ -1,10 +1,10 @@
 {
-    "version": "9.5.5",
+    "version": "9.6",
     "description": "Translate your page in real time using Google or Yandex",
     "homepage": "https://github.com/FilipePS/Traduzir-paginas-web",
     "license": "MPL-2.0 License",
-    "url": "https://github.com/FilipePS/Traduzir-paginas-web/releases/download/v9.5.5/TWP.9.5.5.Chromium.zip",
-    "hash": "a0c5d9a2b0457e581f75be683eab2bc5ced61e70ade498934b8bad76c8a55132",
+    "url": "https://github.com/FilipePS/Traduzir-paginas-web/releases/download/v9.6/TWP.9.6.Chromium.zip",
+    "hash": "3a5762efd86c1c12d7260f64744925ae9bf08e4a6a0deb51677c6a43c5eef9c2",
     "extract_to": "Extension",
     "checkver": "github",
     "autoupdate": {

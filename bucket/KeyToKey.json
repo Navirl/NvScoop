@@ -12,6 +12,11 @@
             "KeyToKey"
         ]
     ],
+    "pre_install": [
+        "if (-not (Test-Path \"$persist_dir\")){",
+        "   New-Item \"$dir\\ApplicationConfig.conf\" | Out-Null",
+        "   }"
+    ],
     "persist": [
         "Profiles",
         "Scripts",

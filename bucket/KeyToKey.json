@@ -12,16 +12,16 @@
             "KeyToKey"
         ]
     ],
-    "pre_install": [
-        "if (-not (Test-Path \"$persist_dir\")){",
-        "   New-Item \"$dir\\ApplicationConfig.conf\" | Out-Null",
-        "   }"
-    ],
-    "persist": [
-        "Profiles",
-        "Scripts",
-        "ApplicationConfig.conf"
-    ],
+    // "pre_install": [
+    //     "if (-not (Test-Path \"$persist_dir\")){",
+    //     "   New-Item \"$dir\\ApplicationConfig.conf\" | Out-Null",
+    //     "   }"
+    // ],
+    // "persist": [
+    //     "Profiles",
+    //     "Scripts",
+    //     "ApplicationConfig.conf"
+    // ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/x0oey6B8/KeyToKey-Web/releases/download/$version/KeyToKey.$version.zip"

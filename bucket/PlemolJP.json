@@ -5,10 +5,16 @@
     "license": "SIL OPEN FONT LICENSE Version 1.1",
     "url": "https://github.com/yuru7/PlemolJP/releases/download/v1.4.0/PlemolJP_v1.4.0.zip",
     "hash": "a416a6da71630edfab4fa9dd473920eba8a382e30f81f43f4ea3429217a1a989",
-    "extract_dir": "PlemolJP_v1.4.0/PlemolJP",
+    "extract_dir": [
+        "PlemolJP_v1.4.0/PlemolJP",
+        "PlemolJP_v1.4.0/PlemolJP35"
+    ],
     "checkver": "github",
     "autoupdate": {
-        "extract_dir": "PlemolJP_v$version/PlemolJP",
+        "extract_dir": [
+            "PlemolJP_v$version/PlemolJP",
+            "PlemolJP_v$version/PlemolJP35"
+        ],
         "url": "https://github.com/yuru7/PlemolJP/releases/download/v$version/PlemolJP_v$version.zip"
     },
     "installer": {

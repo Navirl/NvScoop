@@ -11,7 +11,7 @@
   "url": "https://drive.google.com/uc?export=download&id=1nz8E211Rt26w9sg4YlCjg5D65UOtszmz&confirm=t&uuid=97c65704-1531-4ac7-8a4c-97d0a8305c91",
   "hash": "5ee5dca23b1c969e87a2db8ae4714d483334dc6e934570c39c7621ab28bf781a",
   "pre_install": [
-    "$file = $dir + \"\\\" + \"uc\"",
+    "$file = \"${dir}\\uc\"",
     "7z x $file -o\"${dir}\"",
     "Remove-Item $file"
   ],

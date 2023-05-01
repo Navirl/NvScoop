@@ -1,17 +1,17 @@
 {
     "homepage": "https://spacedesk.net/",
     "description": "Multi Monitor App",
-    "version": "1065_BETA",
+    "version": "1067_BETA",
     "manifest_source": "https://github.com/kkzzhizhou/scoop-zapps/blob/master/bucket/SpacedeskDriver.json",
     "manifest_license": "https://github.com/kkzzhizhou/scoop-zapps/blob/master/LICENSE",
     "architecture": {
         "64bit": {
-            "url": "https://spacedesk.net/downloads/spacedesk_driver_Win_10_64_v1065_BETA.msi#/setup.msi_",
-            "hash": "9c506302d5f5eeeaa84aa1f4da17fe67364ee921d30ff535adfbb362353e1e74"
+            "url": "https://spacedesk.net/downloads/spacedesk_driver_Win_10_64_v1067_BETA.msi#/setup.msi_",
+            "hash": "940aa477eb9ea34ef1547443577e50ceeb300cd254f70ca992a0c5d3f606a02f"
         },
         "32bit": {
-            "url": "https://spacedesk.net/downloads/spacedesk_driver_Win_10_32_v1065_BETA.msi#/setup.msi_",
-            "hash": "fcb9f089c4b2bb492b0fe8b345e69fc1c00c1f71d5e705eec6ee079b6d1efbd4"
+            "url": "https://spacedesk.net/downloads/spacedesk_driver_Win_10_32_v1067_BETA.msi#/setup.msi_",
+            "hash": "f478f25fb32d5da15f9238405fb64ce3d53a6023d63f83df100588fc487255c3"
         }
     },
     "checkver": {

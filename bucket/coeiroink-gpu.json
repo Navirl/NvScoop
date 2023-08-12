@@ -11,9 +11,11 @@
         }
     },
     "pre_install": [
+        "if (Test-Path \"$dir\\speaker_info\")",
+        "   Remove-Item -Path \"$dir\\speaker_info -Force -Recurce",
         "if (!(Test-Path \"$persist_dir\")) {",
-        "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
-        "   New-item \"$persist_dir\\speaker_info\" -ItemType Directory | Out-Null",
+        "   New-item \"$persist_dir\" -ItemType Directory",
+        "   New-item \"$persist_dir\\speaker_info\" -ItemType Directory",
         "}"
     ],
     "persist": "speaker_info",

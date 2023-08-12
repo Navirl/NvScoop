@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "homepage": "https://www.sharevox.app",
+    "license": "LGPL-3.0-only",
+    "url": "https://github.com/SHAREVOX/sharevox/releases/download/0.2.0/sharevox-windows-directml-0.2.0.zip",
+    "hash": "bcda5b6a3cb2eee17238ea33cadd2a6418156178cba85a6524a5f276f137e6c0",
+    "bin": "SHAREVOX.exe",
+    "extract_dir": "SHAREVOX",
+    "shortcuts": [
+        [
+            "SHAREVOX.exe",
+            "SHAREVOX"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/SHAREVOX/sharevox/releases/download/$version/sharevox-windows-directml-$version.zip"
+    }
+}

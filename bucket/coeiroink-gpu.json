@@ -10,6 +10,13 @@
             "extract_dir": "COEIROINK_GPU_v.2.0.1"
         }
     },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\")) {",
+        "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
+        "   New-item \"$persist_dir\\speaker_info\" -ItemType Directory | Out-Null",
+        "}"
+    ],
+    "persist": "speaker_info",
     "shortcuts": [
         [
             "COEIROINKv2.exe",

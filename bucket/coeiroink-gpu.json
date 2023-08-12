@@ -5,14 +5,14 @@
     "license": "https://coeiroink.com/terms",
     "architecture": {
         "64bit": {
-            "url": "https://www.dropbox.com/s/$matchId/COEIROINK-GPU-v.2.0.1.zip?dl=1",
+            "url": "https://www.dropbox.com/scl/fi/1havicunakr1f2q4yvds6/COEIROINK_GPU_v.2.0.1.zip?rlkey=bci6fq2p5ax7i1fejygstvvmx&dl=1",
             "hash": "13c08cfe93c285578d9d00149b2ab2d6969c6ea8c576f215c810ccaf156bf876",
             "extract_dir": "COEIROINK-GPU-v.2.0.1"
         }
     },
     "shortcuts": [
         [
-            "COEIROINKonVOICEVOX.exe",
+            "COEIROINKv2.exe",
             "COEIROINK (GPU)"
         ]
     ],
@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.dropbox.com/s/$matchId/COEIROINK-GPU-v.$version.zip?dl=1",
+                "url": "https://www.dropbox.com/scl/fi/1havicunakr1f2q4yvds6/COEIROINK_GPU_v.$version.zip?rlkey=bci6fq2p5ax7i1fejygstvvmx&dl=1",
                 "extract_dir": "COEIROINK-GPU-v.$version"
             }
         }

@@ -1,12 +1,12 @@
 {
     "version": "2.0.1",
-    "description": "無料で使えるAIトークソフト。",
+    "description": "合成音声であなたの作品に彩りを",
     "homepage": "https://coeiroink.com/",
     "license": "https://coeiroink.com/terms",
     "architecture": {
         "64bit": {
             "url": "https://www.dropbox.com/s/$matchId/COEIROINK-GPU-v.2.0.1.zip?dl=1",
-            "hash": "fcccb3ed82f6f784a90a1b8b437a2b5b1604f35e3a1e388fb2775ac77c364675",
+            "hash": "13c08cfe93c285578d9d00149b2ab2d6969c6ea8c576f215c810ccaf156bf876",
             "extract_dir": "COEIROINK-GPU-v.2.0.1"
         }
     },

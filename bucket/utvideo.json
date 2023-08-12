@@ -13,7 +13,8 @@
         "file": "uninstall.bat"
     },
     "checkver": {
-        "github": "https://github.com/umezawatakeshi/utvideo"
+        "github": "https://github.com/umezawatakeshi/utvideo",
+        "regex": "/releases/tag/(?:utvideo-)?([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/umezawatakeshi/utvideo/releases/download/utvideo-$version/utvideo-$version-win.zip",

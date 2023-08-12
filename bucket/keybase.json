@@ -20,6 +20,6 @@
     ],
     "checkver": {
         "url": "https://community.chocolatey.org/packages/keybase",
-        "regex": "v (\\d+\\.\\d+\\.\\d+\\.\\d+)"
+        "regex": "v ([\\d.]+)"
     }
 }

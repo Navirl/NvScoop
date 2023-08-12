@@ -20,8 +20,8 @@
         }
     },
     "checkver": {
-        "url": "https://ftp.vector.co.jp/71/44/2321/diskinfo.ver",
-        "regex": "diskinfo(\\d+).zip"
+        "url": "https://www.vector.co.jp/download/file/winnt/util/fh714490.html",
+        "regex": "DiskInfo ([\\d.]+)"
     },
     "autoupdate": {
       "architecture": {

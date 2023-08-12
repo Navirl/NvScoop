@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://coeiroink.com/download",
-        "regex": "https://www\\.dropbox\\.com/s/(?<id>[a-z0-9]+)/COEIROINK-GPU-v\\.(?<version>[\\d.]+)\\.zip"
+        "regex": "COEIROINK_GPU_v\\.(?<version>[\\d.]+)\\.zip"
     },
     "autoupdate": {
         "architecture": {

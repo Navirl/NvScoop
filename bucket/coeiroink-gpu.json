@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://www.dropbox.com/scl/fi/1havicunakr1f2q4yvds6/COEIROINK_GPU_v.2.0.1.zip?rlkey=bci6fq2p5ax7i1fejygstvvmx&dl=1",
             "hash": "c682484fbb826fbbdfb1702c59e619a109c98f8d89e54e54c6330136c0bce343",
-            "extract_dir": "COEIROINK-GPU-v.2.0.1"
+            "extract_dir": "COEIROINK_GPU_v.2.0.1"
         }
     },
     "shortcuts": [
@@ -24,7 +24,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://www.dropbox.com/scl/fi/1havicunakr1f2q4yvds6/COEIROINK_GPU_v.$version.zip?rlkey=bci6fq2p5ax7i1fejygstvvmx&dl=1",
-                "extract_dir": "COEIROINK-GPU-v.$version"
+                "extract_dir": "COEIROINK_GPU_v.$version"
             }
         }
     }

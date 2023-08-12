@@ -11,11 +11,11 @@
     ],
     "architecture": {
         "64bit": {
-            "url":"https://ftp.vector.co.jp/71/44/2321/diskinfo643.3.7.0.zip",  
+            "url": "https://ftp.vector.co.jp/71/44/2321/diskinfo643.3.7.0.zip",
             "hash": "f40679bae60988beee537bc8d61c2a0100f502d18658e1a22453252e24442731"
         },
         "32bit": {
-            "url":"https://ftp.vector.co.jp/71/44/2321/diskinfo3.3.7.0.zip",
+            "url": "https://ftp.vector.co.jp/71/44/2321/diskinfo3.3.7.0.zip",
             "hash": "ee222d9dd29e2f6ca6f079da6753f873269d574da1c7b5e0fdeecbf840022166"
         }
     },
@@ -24,15 +24,15 @@
         "regex": "DiskInfo ([\\d.]+)"
     },
     "autoupdate": {
-      "architecture": {
+        "architecture": {
             "64bit": {
-            "url":"https://ftp.vector.co.jp/71/44/2321/diskinfo64$version.zip",  
-            "extract_dir":"diskinfo64$version.zip"
-        },
-        "32bit": {
-            "url":"https://ftp.vector.co.jp/71/44/2321/diskinfo$version.zip",
-            "extract_dir":"diskinfo$version.zip"
+                "url": "https://ftp.vector.co.jp/71/44/2321/diskinfo64$version.zip",
+                "extract_dir": "diskinfo64$version.zip"
+            },
+            "32bit": {
+                "url": "https://ftp.vector.co.jp/71/44/2321/diskinfo$version.zip",
+                "extract_dir": "diskinfo$version.zip"
+            }
         }
     }
-  }
 }

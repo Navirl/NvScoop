@@ -1,0 +1,22 @@
+{
+    "version": "0.24.16",
+    "description": "SikiはElectronで作られた掲示板サイトを閲覧/書き込みする為のソフトです。",
+    "homepage": "https://sikiapp.net",
+    "license": "MIT License",
+    "url": "https://sikiapp.net/archives/0.24.16/Siki-win32-x64-0.24.16.zip",
+    "hash": "ad6b224c4e021ef7f592d39b4f68c19822284e759d41d766d734d23ea77d6a53",
+    "extract_dir": "Siki",
+    "shortcuts": [
+        [
+            "Siki.exe",
+            "Siki"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sikiapp.net/download/",
+        "regex": "現在の最新バージョンは <code>([\\d.]+)</code> です"
+    },
+    "autoupdate": {
+        "url": "https://sikiapp.net/archives/$version/Siki-win32-x64-$version.zip"
+    }
+}

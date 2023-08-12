@@ -22,7 +22,9 @@
     //     "Scripts",
     //     "ApplicationConfig.conf"
     // ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/x0oey6B8/KeyToKey-Web"
+    },
     "autoupdate": {
         "url": "https://github.com/x0oey6B8/KeyToKey-Web/releases/download/$version/KeyToKey.$version.zip"
     }

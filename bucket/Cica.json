@@ -1,11 +1,13 @@
 {
     "version": "5.0.3",
     "description": "プログラミング用日本語等幅フォント Cica(シカ)",
-    "homepage": "https://github.com/yuru7/udev-gothic",
+    "homepage": "https://github.com/miiton/Cica/",
     "license": "SIL OPEN FONT LICENSE Version 1.1",
     "url": "https://github.com/miiton/Cica/releases/download/v5.0.3/Cica_v5.0.3.zip",
     "hash": "cbd1bcf1f3fd1ddbffe444369c76e42529add8538b25aeb75ab682d398b0506f",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/miiton/Cica/"
+    },
     "autoupdate": {
         "url": "https://github.com/miiton/Cica/releases/download/v$version/Cica_v$version.zip"
     },

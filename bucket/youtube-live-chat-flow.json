@@ -7,7 +7,9 @@
     "hash": "7599d5520cef1a4c150b6f923ca3489f13e0f4888d04e7880b5b9f27d9d6e46c",
     "extract_dir": "app",
     "extract_to": "Extension",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/fiahfy/youtube-live-chat-flow"
+    },
     "autoupdate": {
         "url": "https://github.com/fiahfy/youtube-live-chat-flow/releases/download/v$version/archive.zip"
     }

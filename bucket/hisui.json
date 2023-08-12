@@ -22,7 +22,9 @@
         "cp -path \"${dir}\\`$R0\\Uninstall Hisui.exe\" -dest \"${dir}\"",
         "rm -path $file, \"${dir}\\`$PLUGINSDIR\\\", \"${dir}\\`$R0\\\" -r"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/adenohitu/hisui"
+    },
     "autoupdate": {
         "url": "https://github.com/adenohitu/hisui/releases/download/v$version/Hisui-$version-win.exe"
     }

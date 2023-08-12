@@ -1,5 +1,6 @@
 {
     "version": "0.2.0",
+    "description": "無料で使える、声を作れるテキスト読み上げソフトウェア、SHAREVOXのエディター",
     "homepage": "https://www.sharevox.app",
     "license": "LGPL-3.0-only",
     "url": "https://github.com/SHAREVOX/sharevox/releases/download/0.2.0/sharevox-windows-directml-0.2.0.zip",
@@ -12,7 +13,10 @@
             "SHAREVOX"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/SHAREVOX/sharevox",
+        "regex": "tag/([\\w.-]+)"
+    },
     "autoupdate": {
         "url": "https://github.com/SHAREVOX/sharevox/releases/download/$version/sharevox-windows-directml-$version.zip"
     }

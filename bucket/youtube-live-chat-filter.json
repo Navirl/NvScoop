@@ -7,7 +7,9 @@
   "hash": "aaf3d0ca805bfc080c59c0279b6d8d70e544f4a8daa5ce9e58e111e8f57e81b8",
   "extract_dir": "app",
   "extract_to": "Extension",
-  "checkver": "github",
+  "checkver": {
+    "github": "https://github.com/fiahfy/youtube-live-chat-filter"
+},
   "autoupdate": {
     "url": "https://github.com/fiahfy/youtube-live-chat-filter/releases/download/v$version/archive.zip"
   }

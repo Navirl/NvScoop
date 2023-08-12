@@ -40,7 +40,9 @@
         "cp_editor_session.json",
         "cp_editor_settings.ini"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/cpeditor/cpeditor"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

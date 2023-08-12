@@ -56,7 +56,9 @@
             "LAV Video Configuration"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/Nevcairiel/LAVFilters"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {

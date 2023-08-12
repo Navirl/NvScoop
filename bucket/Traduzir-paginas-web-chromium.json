@@ -6,7 +6,9 @@
     "url": "https://github.com/FilipePS/Traduzir-paginas-web/releases/download/v9.6.1/TWP.9.6.1.Chromium.zip",
     "hash": "cffbfeba955741c0017982fd6d5be6d4ec190878f5011bf94a79c9285d50b9f7",
     "extract_to": "Extension",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/FilipePS/Traduzir-paginas-web"
+    },
     "autoupdate": {
         "url": "https://github.com/FilipePS/Traduzir-paginas-web/releases/download/v$version/TWP.$version.Chromium.zip"
     }

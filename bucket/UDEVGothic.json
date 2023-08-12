@@ -6,7 +6,9 @@
     "url": "https://github.com/yuru7/udev-gothic/releases/download/v1.3.1/UDEVGothic_v1.3.1.zip",
     "hash": "13525cc73ea604b3a40a0e9be222cda41d53c217092546a4b178c7e8bf732002",
     "extract_dir": "UDEVGothic_v1.3.1",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/yuru7/udev-gothic"
+    },
     "autoupdate": {
         "extract_dir": "UDEVGothic_v$version",
         "url": "https://github.com/yuru7/udev-gothic/releases/download/v$version/UDEVGothic_v$version.zip"

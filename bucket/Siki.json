@@ -12,6 +12,22 @@
             "Siki"
         ]
     ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\")) {",
+        "   New-item \"$persist_dir\" -ItemType Directory | Out-Null",
+        "   New-item \"$persist_dir\\data\" -ItemType Directory | Out-Null",
+        "   if (Test-Path \"$env:AppData\\Siki\") {",
+        "       Write-host \"Migrating AppData...\" -ForegroundColor yellow",
+        "       Copy-Item -Path \"$env:AppData\\Siki\\*\" -Destination \"$persist_dir\\Siki\\data\" -Recurse",
+        "       Remove-Item -Path \"$env:AppData\\Siki\" -Recurse",
+        "   }",
+        "}"
+    ],
+    "persist": [
+        [
+            "data"
+        ]
+    ],
     "checkver": {
         "url": "https://sikiapp.net/download/",
         "regex": "現在の最新バージョンは <code>([\\d.]+)</code> です"

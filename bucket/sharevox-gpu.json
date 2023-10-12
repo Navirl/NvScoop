@@ -1,10 +1,10 @@
 {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "無料で使える、声を作れるテキスト読み上げソフトウェア、SHAREVOXのエディター",
     "homepage": "https://www.sharevox.app",
     "license": "LGPL-3.0-only",
-    "url": "https://github.com/SHAREVOX/sharevox/releases/download/0.2.0/sharevox-windows-directml-0.2.0.zip",
-    "hash": "ad6b224c4e021ef7f592d39b4f68c19822284e759d41d766d734d23ea77d6a53",
+    "url": "https://github.com/SHAREVOX/sharevox/releases/download/0.2.1/sharevox-windows-directml-0.2.1.zip",
+    "hash": "d1743e02c81cc0af052ec58022653139145b3e06becb237f0d0bd17c1405140f",
     "bin": "SHAREVOX.exe",
     "extract_dir": "SHAREVOX",
     "shortcuts": [

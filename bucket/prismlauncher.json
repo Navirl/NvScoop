@@ -67,7 +67,6 @@
         "themes",
         "translations",
         "accounts.json",
-        "metacache",
         "prismlauncher.cfg"
     ],
     "checkver": {

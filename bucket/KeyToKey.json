@@ -1,10 +1,10 @@
 {
-    "version": "240719",
+    "version": "240930",
     "description": "Utility tool that allows you to assign keys, mouse buttons, and macros to keyboards, mice, and controllers.",
     "homepage": "https://keytokey-dev.net",
     "license": "Donationware",
-    "url": "https://github.com/x0oey6B8/KeyToKey-Web/releases/download/240719/KeyToKey.240719.zip",
-    "hash": "0b51613cda67be34fbe2f67926c4d83cf3c97dfaae8c0cfe2cf1f8490074ded7",
+    "url": "https://github.com/x0oey6B8/KeyToKey-Web/releases/download/240930/KeyToKey.240930.zip",
+    "hash": "61a5f54fcfadea1a70dece041453d14b971222b00b7e50f8a8856fad3a19160e",
     "extract_dir": "KeyToKey",
     "shortcuts": [
         [

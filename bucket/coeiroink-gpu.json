@@ -5,7 +5,7 @@
     "license": "https://coeiroink.com/terms",
     "architecture": {
         "64bit": {
-            "url": "https://www.dropbox.com/scl/fi/1havicunakr1f2q4yvds6/COEIROINK_GPU_v.2.0.1.zip?rlkey=bci6fq2p5ax7i1fejygstvvmx&dl=1",
+            "url": "https://booth.pm/downloadables/4850341",
             "hash": "c682484fbb826fbbdfb1702c59e619a109c98f8d89e54e54c6330136c0bce343",
             "extract_dir": "COEIROINK_GPU_v.2.0.1"
         }
@@ -28,7 +28,8 @@
     ],
     "checkver": {
         "url": "https://coeiroink.com/download",
-        "regex": "fi\/(?<id>[^\/]+)\/COEIROINK_GPU_v\\.(?<version>[\\d.]+)\\.zip\\?rlkey=(?<rlkey>.*?)&amp;dl=1"
+        "regex": "(?<=<option value=\")\\d\\.\\d\\.\\d(?=.*?\/option)",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {

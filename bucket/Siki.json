@@ -1,10 +1,10 @@
 {
-    "version": "0.33.4",
+    "version": "0.33.5",
     "description": "SikiはElectronで作られた掲示板サイトを閲覧/書き込みする為のソフトです。",
     "homepage": "https://sikiapp.net",
     "license": "MIT License",
-    "url": "https://sikiapp.net/archives/0.33.4/Siki-win32-x64-0.33.4.zip",
-    "hash": "32513478d0aaff470c3b9f0408d68754fa888b267228ffeb11c35064b58933a0",
+    "url": "https://sikiapp.net/archives/0.33.5/Siki-win32-x64-0.33.5.zip",
+    "hash": "d9372fc575919e0e7bc2836b3a636d6ee9995486f6d8719cb96796377dab4db2",
     "extract_dir": "Siki-win32-x64",
     "shortcuts": [
         [

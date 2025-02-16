@@ -1,0 +1,18 @@
+{
+  "version": "nightly",
+  "description": "Unity 3D, Unity for all",
+  "homepage": "https://unity.com/",
+  "license": "Freeware",
+  "manifest_source": "https://github.com/cmontage/scoopbucket-third/blob/main/bucket/unity3d.json",
+  "manifest_license": "https://github.com/cmontage/scoopbucket-third/blob/main/LICENSE",
+  "url": "https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe",
+  "installer": {
+    "script": [
+      "& $dir\\UnityHubSetup.exe /S /D=$dir"
+    ]
+  },
+  "uninstaller": {
+    "file": "Uninstall Unity Hub.exe",
+    "args": "/S"
+  }
+}

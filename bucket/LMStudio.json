@@ -4,9 +4,9 @@
     "license": {
         "url": "https://lmstudio.ai/terms"
     },
-    "version": "0.3.18-3",
-    "url": "https://installers.lmstudio.ai/win32/x64/0.3.18-3/LM-Studio-0.3.18-3-x64.exe#/dl.7z",
-    "hash": "38882bbbf079c0297b5346d7c46d587a15f2bdafb36f193ecffc83c605f34ac3",
+    "version": "0.3.30-2",
+    "url": "https://installers.lmstudio.ai/win32/x64/0.3.30-2/LM-Studio-0.3.30-2-x64.exe#/dl.7z",
+    "hash": "0e59b73ef9a2d702aa349d85b483c5ff493be320ec4844da581ea3627d44183e",
     "installer": {
         "script": [
             "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",

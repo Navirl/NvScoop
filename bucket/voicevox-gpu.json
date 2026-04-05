@@ -11,6 +11,10 @@
         [
             "VOICEVOX.exe",
             "VOICEVOX"
+        ],
+        [
+          "vv-engine\\run.exe",
+          "voicevox-cli"
         ]
     ],
     "checkver": {

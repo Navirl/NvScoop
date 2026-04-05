@@ -1,16 +1,16 @@
 {
-    "version": "2025.10.17",
+    "version": "2026.4.3",
     "description": "Mise-En-Place installs and manages dev tools/runtimes like node, python, or terraform both simplifying installing these tools and allowing you to specify which version of these tools to use in different projects.",
     "homepage": "https://mise.jdx.dev/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jdx/mise/releases/download/v2025.10.17/mise-v2025.10.17-windows-x64.zip",
-            "hash": "05009bc64db60abfec5e61d62b825e6c57116f20d0c27439429bb4a1b4b1de24"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.4.3/mise-v2026.4.3-windows-x64.zip",
+            "hash": "a564ed07eb2c41c403a59ac03238d053d0f250aa4e55225dc0456d63bb6589cb"
         },
         "arm64": {
-            "url": "https://github.com/jdx/mise/releases/download/v2025.10.17/mise-v2025.10.17-windows-arm64.zip",
-            "hash": "a8c1019228475d171cfd19e0c15b040061ff555624e5360da4d28b013fbbce48"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.4.3/mise-v2026.4.3-windows-arm64.zip",
+            "hash": "02a27c60b23c5fb8d894a82af01d2ceb1f2e6d1d14db7463cb6ddb30489b0f5f"
         }
     },
     "extract_dir": "mise",

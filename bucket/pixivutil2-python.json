@@ -1,11 +1,11 @@
 {
-    "version": "20250426",
+    "version": "20251112",
     "description": "Download images from Pixiv and more!",
     "homepage": "https://nandaka.devnull.zone/",
     "license": "BSD-2-Clause",
-    "url": "https://github.com/Nandaka/PixivUtil2/archive/refs/tags/v20250426.zip",
-    "hash": "cfff488bc61f0dfb1396078409abd23b4eb340c35421e9d43a6b0b9882241c13",
-    "extract_dir": "PixivUtil2-20250426",
+    "url": "https://github.com/Nandaka/PixivUtil2/archive/refs/tags/v20251112.zip",
+    "hash": "ad81d95be8164b098b486cee0695ea6335ae28077753d458655d0ae97af8f659",
+    "extract_dir": "PixivUtil2-20251112",
     "pre_install": [
         "if (-not (Test-Path \"$persist_dir\")){",
         "   New-Item \"$dir\\config.ini\" | Out-Null",

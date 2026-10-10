@@ -1,11 +1,11 @@
 {
-    "version": "7.0.2",
+    "version": "7.0.3",
     "description": "The IDE for competitive programming",
     "homepage": "https://github.com/cpeditor/cpeditor",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://ghproxy.com/https://github.com/cpeditor/cpeditor/releases/download/7.0.2/cpeditor-7.0.2-windows-x64-portable.zip",
+            "url": "https://ghproxy.com/https://github.com/cpeditor/cpeditor/releases/download/7.0.3/cpeditor-7.0.3-windows-x64-portable.zip",
             "hash": "94176d686473f905c7e64a2ef0a5a52e7194e02b7b8442b4ba7c941f10d589db"
         }
     },
